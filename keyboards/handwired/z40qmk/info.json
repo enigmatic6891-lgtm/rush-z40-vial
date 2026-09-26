@@ -13,7 +13,7 @@
     // What the OS will display as the USB device name
     "keyboard_name": "z40qmk",
     "manufacturer": "fucksmartbuy",
-    "maintainer": "you",
+    "maintainer": "DGG",
 
     // USB identification — VID/PID pair must be unique per physical keyboard model.
     // 0xFEED is the QMK community default VID. Choose any unused PID.
