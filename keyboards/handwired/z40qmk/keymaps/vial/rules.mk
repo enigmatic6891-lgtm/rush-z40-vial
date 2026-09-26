@@ -12,6 +12,9 @@ VIA_ENABLE = yes
 VIAL_ENABLE = yes
 LTO_ENABLE = yes
 
+"processor": "RP2040",
+"bootloader": "rp2040-eeprom",
+
 # ── DEBOUNCE ALGORITHM (#27) ──────────────────────────────────────
 # sym_defer_g: global timer, safe for all switches (QMK default)
 # sym_defer_pr: per-row/key timer
