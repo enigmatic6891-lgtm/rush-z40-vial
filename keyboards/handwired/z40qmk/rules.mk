@@ -13,14 +13,4 @@
 # LTO (Link-Time Optimization) and NKRO are set here because vial-qmk's
 # keyboard.json schema does not support these as features keys.
 
-# MCU и Архитектура для Raspberry Pi Pico
-MCU = RP2040
-BOOTLOADER = rp2040
-
-# Включение обязательных функций Vial и QMK
-VIAL_ENABLE = yes
 LTO_ENABLE = yes
-
-# Включение вашей ШИМ-подсветки
-BACKLIGHT_ENABLE = yes
-BACKLIGHT_DRIVER = pwm
