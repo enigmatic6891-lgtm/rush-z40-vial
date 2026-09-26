@@ -38,8 +38,9 @@ jobs:
 
       # Step 3: Install build dependencies
       #- run: sudo apt-get update && sudo apt-get install -y python3 python3-pip git make rsync
+      #- run: sudo apt-get update && sudo apt-get install -y python3 python3-pip git make rsync gcc-arm-none-eabi pnewlib-arm-none-eabi
+      - run: sudo apt-get update && sudo apt-get install -y python3 python3-pip git make rsync gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 
-      - run: sudo apt-get update && sudo apt-get install -y python3 python3-pip git make rsync gcc-arm-none-eabi pnewlib-arm-none-eabi
 
 
       # Step 4: Install the QMK CLI tool
