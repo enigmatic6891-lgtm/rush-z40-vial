@@ -12,5 +12,3 @@
 #
 # LTO (Link-Time Optimization) and NKRO are set here because vial-qmk's
 # keyboard.json schema does not support these as features keys.
-
-LTO_ENABLE = yes
