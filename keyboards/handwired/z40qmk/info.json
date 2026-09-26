@@ -31,7 +31,7 @@
     //   caterina → QMK Toolbox or avrdude (Pro Micro / Elite-C)
     //   stm32-dfu → QMK Toolbox or dfu-util
     "processor": "RP2040",
-    "bootloader": "rp2040-eeprom",
+    "bootloader": "rp2040",
 
     // ── MATRIX WIRING ──────────────────────────────────────────────
     // rows: GPIO pins connected to the ROW wires on your PCB/hand-wire.
