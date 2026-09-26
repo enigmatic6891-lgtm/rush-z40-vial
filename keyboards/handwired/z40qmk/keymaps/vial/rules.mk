@@ -7,7 +7,10 @@
 # This is per the official Vial porting documentation.
 # Reference: https://get.vial.today/docs/porting-to-vial.html
 #
+
+VIA_ENABLE = yes
 VIAL_ENABLE = yes
+LTO_ENABLE = yes
 
 # ── DEBOUNCE ALGORITHM (#27) ──────────────────────────────────────
 # sym_defer_g: global timer, safe for all switches (QMK default)
