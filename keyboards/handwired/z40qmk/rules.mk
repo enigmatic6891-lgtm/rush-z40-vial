@@ -12,3 +12,5 @@
 #
 # LTO (Link-Time Optimization) and NKRO are set here because vial-qmk's
 # keyboard.json schema does not support these as features keys.
+MCU = RP2040
+BOOTLOADER = rp2040
